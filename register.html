@@ -1,0 +1,247 @@
+   <?php
+   if{isset($_POST["create"])}{
+       echo "Regitered"
+   }
+   echo
+   ?>
+    
+    
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>mits basant utsav</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+          
+            
+       
+    
+            </head>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+
+
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" ><img src="images/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ml-auto">
+                             <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="about.html">About</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="resgal.html">Gallery</a>
+                             </li>
+                            <li class="nav-item">
+                               <a class="nav-link" href="">Activities</a>
+                             </li>
+                             <li class="nav-item active">
+                                <a class="nav-link" href="#">Regsitration</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contactus</a>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+    <div class="pt-page pt-page-md-4">
+        <div class=contains style=color:b;margin-left:20px;padding:20px>
+            <div class=container-fluid>
+                <form action="register.php" method=post>
+                    <div class=from-group style=float:left>
+                        <h3>Your Information:</h3>
+                        <form action="insert.php" method="POST">
+                        <table>
+                            <tr>
+                                <td>
+                                    <input class=form-control placeholder=*Name name="username" type="text" required>
+                                    <tr>
+                                        <td>
+                                            <input class=form-control placeholder=*RegistrationNo name="regd" type="number" required>
+                                            <tr>
+                                                <td>
+                                                 <input class=form-control placeholder=*Branch name="branch" type="text" required>
+                                                    <tr>
+                                                        <td>
+                                                            <input class=form-control placeholder=*email name="email" type="email" required>
+                             <tr>
+                           <td>
+                
+                        </table>
+                    </form>
+                    </div>
+                    
+                    <div class=form-group style=float:left;margin-left:25px;padding-top:0px;>
+                            <h3>Events you want to register:</h3>
+                            <table>
+                                <tr>
+                                   
+                                 <th>*Outdoor
+                                                <tr>
+                                                    <td>
+                                                          <div>
+                                                                 <label>
+                                                                        <input type=checkbox name=2>Javelin Throw</label>
+                                                                </div>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div>
+                                                                            <label>
+                                                                                <input type=checkbox name=3>Javelin Throw(Girls)</label>
+                                                                        </div>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div>
+                                                                                    <label>
+                                                                                        <input type=checkbox name=4>Shotput Throw</label>
+                                                                                </div>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div>
+                                                                                            <label>
+                                                                                                <input type=checkbox name=5>Shotput Throw(Girls)</label>
+                                                                                        </div>
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <label>
+                                                                                                        <input type=checkbox name=6>Discus Throw</label>
+                                                                                                </div>
+                                                                                                <tr>
+                                                                                                    <td>
+                                                                                                        <div>
+                                                                                                            <label>
+                                                                                                                <input type=checkbox name=7>Discus Throw(Girls)</label>
+                                                                                                        </div>
+                                                                                                        <tr>
+                                                                                                            <th>Race
+                                                                                                                <tr>
+                                                                                                            <td>
+                                                                                                                <div>
+                                                                                                                    <label>
+                                                                                                                        <input type=checkbox name=8>100m</label>
+                                                                                                                </div>
+                                                                                                                <tr>
+                                                                                                                    <td>
+                                                                                                                        <div>
+                                                                                                                            <label>
+                                                                                                                                <input type=checkbox name=9>100m(Girls)</label>
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                            <div>
+                                                                                                                                                    <label>
+                                                                                                                                                        <input type=checkbox name=10>200m</label>
+                                                                                                                                                </div>
+                                                                                                            <tr>
+                                                                                                            <td>
+                                                                                                              <div>
+                                                                                                               <label>
+                                                                                                                 <input type=checkbox name=11>200m(Girls)</label>
+                                                                                                             <tr>
+                                                                                                              <td>
+                                                                                                              <div>
+                                                                                                                <label>
+                                                                                                                 <input type=checkbox name=12>400m</label>
+                                                                                                                 <tr>
+                                                                                                                      <td>
+                                                                                                                     <div>
+                                                                                                                       <label>
+                                                                                                                       <input type=checkbox name=13>400m(Girls)</label>
+                                                                                                                        </div>
+                                                                                                                          <tr>
+                                                                                                                           <td>
+                                                                                                                          <div>
+                                                                                                                           <label>
+                                                                                                                         <input type=checkbox name=13>800m</label>
+                                                                                                                            <tr>
+                                                                                                                         <td>
+                                                                                                                           </table>
+                                                                                                                          </div>
+
+                                                                                                                       <div class=form-group style=float:left;margin-left:25px;padding-top:0px;>     
+                                                                                                                           <table>                                                                             
+                                                                                                                                <th>*Indoor&Cultural
+                                                                                                                                        <tr>
+                                                                                                                                            <td>
+                                                                                                                                                <div>
+                                                                                                                                                    <label>
+                                                                                                                                                        <input type=checkbox name=14>Star of the year</label>
+                                                                                                                                                </div>
+                                                                                                                                                <tr>
+                                                                                                                                                    <td>
+                                                                                                                                                        <div>
+                                                                                                                                                            <label>
+                                                                                                                                                                <input type=checkbox name=15> Treasure Hunt</label>
+                                                                                                                                                        </div>
+                                                                                                                                                        <tr>
+                                                                                                                                                            <td>
+                                                                                                                                                                <div>
+                                                                                                                                                                    <label>
+                                                                                                                                                                        <input type=checkbox name=15>Pubg</label>
+                                                                                                                                                                </div>
+                                                                                                                                                                <tr>
+                                                                                                                                                                    <td>
+                                                                                                                                                                        <div>
+                                                                                                                                                                            <label>
+                                                                                                                                                                                <input type=checkbox name=16>Foodfun</label>
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <tr>
+                                                                                                                                                                            <td>
+                                                                                                                                                                                <div>
+                                                                                                                                                                                    <label>
+                                                                                                                                                                                        <input type=checkbox name=17>Dance</label>
+                                                                                                                                                                                </div>
+                                                                                                                                                                                <tr>
+                                                                                                                                                                                    <td>
+                                                                                                                                                                                        <div>
+                                                                                                                                                                                            <label>
+                                                                                                                                                                                                <input type=checkbox name=18>Sing</label>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                            <td>
+                                                                                                                                                                                                <div>
+                                                                                                                                                                                                    <label>
+                                                                                                                                                                                                        <input type=checkbox name=19>Rangoli</label>
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                                <tr>
+                                                                                                                                                                                                    <td>
+                                                                                                                                                                                                        <div>
+                                                                                                                                                                                                            <label>
+                                                                                                                                                                                                                <input type=checkbox name=20>Painting</label>
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                        <tr>
+                                                                                                                                                                                                            <td>
+                                                                                                                                                                                                                <div>
+                                                                                                                                                                                                                    <label>
+                                                                                                                                                                                                                        <input type=checkbox name=21>Mehandi</label>
+                                                                                                                                                                                                                        <tr>
+                                                                                                                                                                                                                                <td>
+                                                                                                                                                                                                                                    <div>
+                                                                                                                                                                                                                                        <label>
+                                                                                                                                                                                                                                            <input type=checkbox name=22>Carrom</label>
+                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                    <tr>
+                                                                                                                                                                                                                                        <td>
+                                                                                                                                                                                                                                                                                                                                   <label>
+                                                                                                                                                                                                                                                    <input type=checkbox name=23>Chess</label>
+                                  </div>
+                                  <button id=register type=submit class="btn btn-primary" name="create" style=margin-left:10px;margin-top:50px;float:center>Register</button>
+                            </table>
+                       
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </html>
